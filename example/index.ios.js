@@ -8,7 +8,7 @@ import {
   View,
   Image,
 } from 'react-native';
-import ContextMenuStrip from './ContextMenuStrip'
+import ContextMenuStrip from 'react-native-context-menu-strip'
 
 class example extends Component {
   contextMenuStrip

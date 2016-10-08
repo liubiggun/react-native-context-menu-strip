@@ -1,4 +1,6 @@
 # react-native-context-menu-strip
+<a href="https://www.npmjs.com/package/react-native-context-menu-strip"><img width="134" height="20" src="https://img.shields.io/npm/dm/react-native-context-menu-strip.svg"></a>&nbsp;&nbsp;[![npm version](https://badge.fury.io/js/react-native-context-menu-strip.svg)](https://badge.fury.io/js/react-native-context-menu-strip)&nbsp;&nbsp;<a href="https://github.com/liubiggun/react-native-context-menu-strip"><img width="84" height="20" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+
 A ContextMenuStrip component for react-native
 
 ![react-native-context-menu-strip example](https://github.com/liubiggun/react-native-context-menu-strip/blob/master/example.gif)

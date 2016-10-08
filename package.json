@@ -1,0 +1,25 @@
+{
+  "name": "react-native-context-menu-strip",
+  "version": "0.0.1",
+  "description": "ContextMenuStrip",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liubiggun/react-native-context-menu-strip"
+  },
+  "keywords": [
+    "react-native",
+    "reactjs",
+    "reactnative",
+    "context-menu-strip"
+  ],
+  "peerDependencies": {
+    "react-native-vector-icons": "^2.1.0"
+  },
+  "author": "Alvin Liu <372252659@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liubiggun/react-native-context-menu-strip/issues"
+  },
+  "homepage": "https://github.com/liubiggun/react-native-context-menu-strip"
+}

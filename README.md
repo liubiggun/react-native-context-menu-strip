@@ -31,9 +31,10 @@ import ContextMenuStrip from 'react-native-context-menu-strip'
 | btnColor | 'transparent' | string | backgroundColor of menu's main button, (must be rgba value!) |
 | btnColorRange | undefined | string | backgroundColor of menu's main button when menu opened, (must be rgba value!) |
 | degrees | 135 | number | degrees to rotate icon when menu opened |
-| scaleRange | undefined | scale to resize menu's main button  |
+| scaleRange | undefined | number | scale to resize menu's main button  |
 | menuBorderColor | '#D5D5D5' | string | borderColor of menu |
 | menuMarginRight | 0 | number | marginRight of menu items |
+| menuMarginTop | 0 | number | marginTop of menu items |
 | icon | undefined | component | '+' icon |
 | onPress | () = {} | function | callback when menu's main button is pressed |
 | onReset | undefined | function | callback when menu reset |

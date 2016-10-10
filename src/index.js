@@ -77,6 +77,10 @@ export default class ContextMenuStrip extends Component {
      */
     menuMarginRight: PropTypes.number,
     /**
+     * marginTop of menu items
+     */
+    menuMarginTop: PropTypes.number,
+    /**
      * text color of menu's main button
      */
     btnTextColor: PropTypes.string,
@@ -111,6 +115,7 @@ export default class ContextMenuStrip extends Component {
     scaleRange: 1,
     itemType: 'highlight',
     menuMarginRight: 0,
+    menuMarginTop: 0,
     onPress: () => {
     },
   }
@@ -150,7 +155,9 @@ export default class ContextMenuStrip extends Component {
     return {
       position: 'absolute',
       flex: 1,
-      top: os === 'ios' ? statusBarHeight + this.props.height : this.props.height,
+      top: os === 'ios'
+        ? statusBarHeight + this.props.height + this.props.menuMarginTop
+        : this.props.height + this.props.menuMarginTop,
       right: 0,
       bottom: 0,
       left: screenWidth - this.props.itemWidth - this.props.menuMarginRight,
